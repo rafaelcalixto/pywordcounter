@@ -4,7 +4,6 @@ from pymongo import MongoClient
 from collections import Counter
 from operator import itemgetter
 from json import load
-from re import findall
 
 ### This object has builded to do two tasks, get data from an API and persist
 ### in a MongoDB and get the data from the MongoDB and process to show the
